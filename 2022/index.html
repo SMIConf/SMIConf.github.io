@@ -434,8 +434,8 @@
           Registered participants can attend both SPM and SMI virtually. The Zoom meeting link and passcode will be
           available a few days before the conference. </p>
         <p>
-          To register, click <a href="https://ntuadminonestop.service-now.com/ntusp?id=ntu_adhoc_payment" class="btn btn-default btn-lg"
-            role="button" style="vertical-align:middle" target="_blank">
+          To register, click <a href="https://ntuadminonestop.service-now.com/ntusp?id=ntu_adhoc_payment"
+            class="btn btn-default btn-lg" role="button" style="vertical-align:middle" target="_blank">
             <font color="darkred">SPM/SMI 2022 Registration</font>
           </a>. You will be directed to NTU Adhoc Payment page. Select "SPM/SMI 2022 - Full Registration" or "SPM/SMI
           2022 - Student Registration" in the dropdown list and click "Pay". Follow the on-screen instructions to
@@ -449,12 +449,37 @@
 
         </div>
         <p> For query about registration, please contact
-          <a href="mailto:yhe@ntu.edu@@sg?subject=[SMI2022 Registration]" onmouseover="this.href=this.href.replace('@@','.')">Ying
+          <a href="mailto:yhe@ntu.edu@@sg?subject=[SMI2022 Registration]"
+            onmouseover="this.href=this.href.replace('@@','.')">Ying
             He</a>.
         </p>
       </div>
     </div>
   </section>
+
+
+
+  <script language="javascript" type="text/javascript">
+    function localtime(day, tbegin, tend) {
+      var str0 = "June " + day + ", 2022 " + tbegin + ":00 UTC+8";
+      var str1 = "June " + day + ", 2022 " + tend + ":00 UTC+8";
+      var date0 = new Date(str0);
+      var date1 = new Date(str1);
+
+      return (
+        date0.toString().substring(16, 21) +
+        "-" +
+        date1.toString().substring(16, 21) +
+        ", "
+        +
+        date0.toString().substring(0, 15)
+        +
+        ", "
+        +
+        date0.toString().match(/([A-Z]+[\+-][0-9]+.*)/)[1]
+      );
+    }
+  </script>
 
   <section id="program">
     <div class="row">
@@ -476,10 +501,12 @@
           <h3 style="color: rgba(252, 180, 34, 0.918)">
             <b id="Mirela-talk">Title:</b>TBD
           </h3>
-          <p><b>Date: 15:00-16:00, June 28th (UTC+8)</b></p>
-          <script language="javascript" type="text/javascript">
-            document.write(localtime("28", "15:00", "16:00"));
-          </script>
+          <!-- <p><b>Date: 15:00-16:00, June 28th (UTC+8)</b></p> -->
+          <p><b>Date
+              <script language="javascript" type="text/javascript">
+                document.write(localtime("28", "15:00", "16:00"));
+              </script>
+            </b></p>
           <p>
             <b>Abstract:</b> TBD
           </p>
@@ -521,7 +548,13 @@
           <h3 style="color: rgba(252, 180, 34, 0.918)">
             <b id="Philippe-talk">The Structural Geometry of 3D Concrete Printing</b>
           </h3>
-          <p><b>Date: 15:00-16:00, June 27th (UTC+8)</b></p>
+          <!-- <p><b>Date: 15:00-16:00, June 27th (UTC+8)</b></p> -->
+          <p><b>Date:
+              <script language="javascript" type="text/javascript">
+                document.write(localtime("27", "15:00", "16:00"));
+              </script>
+            </b>
+          </p>
           <p>
             <b>Abstract:</b> This keynote, motivated by the rapid growth in large-scale 3D concrete printing (3DCP),
             addresses the current lack of both computational design tools and integrated design-to-production (DTP)
@@ -586,7 +619,7 @@
 
   </section>
 
-  <!-- <section id="keynote">
+  <section id="keynote">
     <div class="container">
       <h2 class="heading">Award Recipient Speakers</h2>
 
@@ -603,37 +636,49 @@
           <p>
             <b id="Cani">Bio:</b>
             Marie-Paule Cani is a Professor of Computer Science at Ecole Polytechnique. Her research interests cover
-            both Shape Modelling and Computer Animation. She contributed over the years to a number of high level models
-            for shapes and motion such as implicit surfaces, multi-resolution physically-based animation methods and
-            hybrid representations for real-time natural scenes. Following a long lasting interest for virtual
-            sculpture, she has been recently searching for more expressive ways to create 3D contents such as combining
-            sketch-based interfaces with procedural models based on a priori knowledge or learning. She received the
-            Eurographics outstanding technical contributions award in 2011, a Silver medal from CNRS in 2012, and was
-            elected at the Academia Europaea in 2013. She was awarded the ERC advanced grant EXPRESSIVE (2012-2017) and
-            joined the ACM Siggraph Academy in 2019. She was elected at the French Academy of Sciences in 2020.
+            Shape Modelling and Computer Animation. She contributed over the years to a number of high level models for
+            shapes and motion such as implicit surfaces, multi-resolution physically-based animation methods and hybrid
+            representations for real-time natural scenes. Following a long lasting interest for virtual sculpture, she
+            has been searching for more expressive ways to create 3D contents such as combining sketch-based interfaces
+            with procedural models based on priors or learning. She received the Eurographics outstanding technical
+            contributions award in 2011, a Silver medal from CNRS in 2012, and joined the Academia Europaea in 2013. She
+            was awarded the ERC advanced grant EXPRESSIVE (2012-2017). She was elected at the ACM Siggraph Academy and
+            at the French Academy of Sciences in 2019.
+          </p>
 
+          <p>
             Marie-Paule Cani was the Technical Paper Chair of ACM SIGGRAPH 2017, and program co-chair of Motion,
-            Interaction and Games (MIG) in 2019. Before that, she served in the program committees of all major
-            conferences in computer graphics and was program chair a number of times. She served in the steering
-            committees of SCA, SBIM and SMI, and in the editorial board of ACM Transactions of Graphics (TOG), Computer
-            Graphics Forum, IEEE TVCG and Graphical Models. She is now associate editor of Computers and Graphics. She
-            was Director at Large in the EC of ACM SIGGRAPH from 2007 to 2011, and member of the ACM Publication Board
-            from 2011 to 2014. In France, she served in the executive board of the GDR IG-RV (Informatique Géométrique
-            et Graphique, Réalité Virtuelle et Visualisation) of CNRS and in the CA of the French chapter of
-            Eurographics for many years. After being vice president from 2013, she was President of the Eurographics
-            association in 2017 and 2018.
+            Interaction and Games (MIG) in 2019, after chairing programs in a number of other conferences. She served in
+            the steering committees of SMI, SCA and Expressive (SBIM), and in the editorial boards of ACM Transactions
+            of Graphics (TOG), Computer Graphics Forum, IEEE TVCG, Graphical Models and Computers and Graphics. She was
+            Director at Large in the EC of ACM SIGGRAPH (2007-2011), and member of the ACM Publication Board
+            (2011-2014). She was President of the Eurographics association in 2017 and 2018, and received the
+            Eurographics Distinguished Career Award in 2022.
           </p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-8">
-          <h3 style="color: rgba(99, 2, 209, 0.918)">
-            <b id="Cani-talk">TBD</b>
+          <h3 style="color: rgba(252, 180, 34, 0.918)">
+            <b id="Cani-talk">Creative AI : Turning 3D virtual worlds into interactive scientific test-beds</b>
           </h3>
-          <p><b>Date:</b> TBD</p>
+          <!-- <p><b>Date:</b> 00:00-00:30, June 29th (UTC+8)</p> -->
+          <p><b>Date:
+              <script language="javascript" type="text/javascript">
+                document.write(localtime("29", "00:00", "00:30"));
+              </script>
+            </b>
+          </p>
           <p>
-            <b>Abstract:</b> TBD
+            <b>Abstract:</b> Visual representations are essential in science, as they facilitate intuition and ease
+            communication. While the 2D sketches used for centuries recently evolved into 3D contents, the latter are
+            generally not responsive: they do not allow scientists to interact with their models, change hypotheses on
+            the fly and experiment their effects. In this talk, we explore the use of smart 3D environments as visual
+            testbeds in science. We show that a combination of efficient procedural models expressing knowledge,
+            expressive sculpting or sketching interfaces, and learning mechanisms, can help to reach this goal. We
+            illustrate this through a variety of examples, from sculpting eroding mountains that express geological
+            knowledge to helping prehistorians explore past ecosystems with flora and animated fauna.
           </p>
         </div>
       </div>
@@ -657,17 +702,32 @@
         <div class="col-sm-5">
           <p>
             <b id="Schneider">Bio:</b>
-
+            Teseo Schneider is an Assistant Professor in Computer Science at the Univerity of Victoria, Canada. Teseo
+            earned his Ph.D. in Computer Science from the Universita della Svizzera italiana (2017) with the thesis
+            entitled "Theory and Applications of Bijective Barycentric Mappings." He earned a PostdocMobility fellowship
+            from the Swiss National Science Foundation (SNSF) to pursue his research at the Courant Institute of
+            Mathematical Science at the New York University, aiming to bridge physical simulations and geometry. His
+            research interests are in finite element simulations, mathematics, discrete differential geometry, and
+            geometry processing. Teseo is the leading developer of <a href="https://polyfem.github.io/">PolyFEM</a>, a flexible and
+            easy-to-use Finite Element Library. He is one of the maintainers of <a href="https://libigl.github.io/">libigl</a>
+           and a contributor to <a href="https://github.com/wildmeshing">wild meshing</a>, a 2D
+            and 3D robust meshing library.
           </p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-8">
-          <h3 style="color: rgba(99, 2, 209, 0.918)">
-            <b id="Schneider-talk">TBD</b>
+          <h3 style="color: rgba(252, 180, 34, 0.918)">
+            <b id="Schneider-talk">Robust Black-Box Analysis</b>
           </h3>
-          <p><b>Date:</b> TBD</p>
+          <!-- <p><b>Date: 00:50-01:20, June 29th (UTC+8)</b></p> -->
+          <p><b>Date:
+              <script language="javascript" type="text/javascript">
+                document.write(localtime("29", "00:50", "01:20"));
+              </script>
+            </b>
+          </p>
           <p>
             <b>Abstract:</b> TBD
           </p>
@@ -683,7 +743,7 @@
 
       <div class="col-sm-2"></div>
     </div>
-  </section> -->
+  </section> 
 
 
 
