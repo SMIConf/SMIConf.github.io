@@ -301,7 +301,7 @@
           science writer (or a few of speakers) can turn the collected information
           first into an article and later into a book.
         </p>
-        <p>More information will be provided soon.</p>
+        <p>The workshop is free to public. More information and the online meeting link will be provided soon. </p>
       </div>
       <div class="col-sm-2"></div>
     </div>
@@ -486,9 +486,10 @@
       <div class="col-sm-2"></div>
       <div class="col-sm-6">
         <h2>Program</h2>
-        <p>Please check <a href="https://spm2022.sciencesconf.org/data/program.pdf"
-          class="btn btn-default btn-lg" role="button" style="vertical-align:middle" target="_blank">
-          <font color="darkred">Tentative SMI&SPM Program</font></a> (pdf format). </p>  
+        <p>Please check <a href="https://spm2022.sciencesconf.org/data/program.pdf" class="btn btn-default btn-lg"
+            role="button" style="vertical-align:middle" target="_blank">
+            <font color="darkred">Tentative SMI&SPM Program</font>
+          </a> (pdf format). </p>
       </div>
     </div>
   </section>
@@ -709,9 +710,11 @@
             from the Swiss National Science Foundation (SNSF) to pursue his research at the Courant Institute of
             Mathematical Science at the New York University, aiming to bridge physical simulations and geometry. His
             research interests are in finite element simulations, mathematics, discrete differential geometry, and
-            geometry processing. Teseo is the leading developer of <a href="https://polyfem.github.io/">PolyFEM</a>, a flexible and
-            easy-to-use Finite Element Library. He is one of the maintainers of <a href="https://libigl.github.io/">libigl</a>
-           and a contributor to <a href="https://github.com/wildmeshing">wild meshing</a>, a 2D
+            geometry processing. Teseo is the leading developer of <a href="https://polyfem.github.io/">PolyFEM</a>, a
+            flexible and
+            easy-to-use Finite Element Library. He is one of the maintainers of <a
+              href="https://libigl.github.io/">libigl</a>
+            and a contributor to <a href="https://github.com/wildmeshing">wild meshing</a>, a 2D
             and 3D robust meshing library.
           </p>
         </div>
@@ -730,7 +733,23 @@
             </b>
           </p>
           <p>
-            <b>Abstract:</b> TBD
+            <b>Abstract:</b> The finite element method (FEM) is the most commonly used discretization of PDEs due to its
+            generality and rich selection of off-the-shelf commercial implementations. Ideally, a PDE solver should be a
+            "black-box": the user provides as input the domain's boundary, the boundary conditions, and the governing
+            equations, and the code returns an evaluator that can compute the value of the solution at any point of the
+            input domain. This is surprisingly far from being the case for all existing open-source or commercial
+            software, despite the many research efforts in this direction and the sustained interest from academia and
+            industry.
+
+            To a large extent, this issues from treating meshing (and geometry more in general) and FEM basis
+            construction as two disjoint problems. The FEM basis construction may make a seemingly innocuous assumption
+            (e.g., on the geometry of elements), leading to exceedingly difficult requirements for meshing software.
+
+            This state of matters presents a fundamental problem for all applications, and is even more problematic in
+            applications that require fully automatic, robust processing of large collections of meshes. We present
+            recent advancements towards an integrated pipeline, considering meshing and element design as a unique
+            challenge, leading thus to a black-box pipeline, without any parameter tuning.
+
           </p>
         </div>
       </div>
@@ -744,7 +763,7 @@
 
       <div class="col-sm-2"></div>
     </div>
-  </section> 
+  </section>
 
 
 
