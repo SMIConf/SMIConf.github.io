@@ -144,10 +144,52 @@
     </div>
   </section>
 
+
+
   <section id="about">
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-6">
+        <style>
+          .blink {
+            animation: blinker 0.6s linear infinite;
+            color: #f57a28;
+            font-size: 36px;
+            font-weight: bold;
+            font-family: sans-serif;
+          }
+
+          @keyframes blinker {
+            50% {
+              opacity: 0;
+            }
+          }
+
+          .blink-one {
+            animation: blinker-one 1s linear infinite;
+          }
+
+          @keyframes blinker-one {
+            0% {
+              opacity: 0;
+            }
+          }
+
+          .blink-two {
+            animation: blinker-two 1.4s linear infinite;
+          }
+
+          @keyframes blinker-two {
+            100% {
+              opacity: 0;
+            }
+          }
+        </style>
+
+        <h2 class="blink">News</h2>
+        <p>
+          <a href="#reg">SMI 2022 Registration</a> is open.
+        </p>
         <h2>About SMI</h2>
         <p>
           <b>Shape Modeling International (SMI 2022)</b> provides an
@@ -444,7 +486,7 @@
         <p>After making payment, you will receive an email acknowledgement. The official receipt will be available in 2
           to 3 working days. </p>
 
-        <p>Registration closes on June 20, 2022. </p>
+        <p>Registration deadline is 23:59, June 20, 2022 (GMT+8). </p>
         <div align="center">
 
         </div>
@@ -488,7 +530,7 @@
         <h2>Program</h2>
         <p>The following program was updated on June 13, 2022. We use 24-hour clock format.</p>
         <p>Please contact <a href="mailto:yhe@ntu.edu@@sg?subject=[SMI2022 Program Issues]&cc=yangliu@microsoft@@com"
-          onmouseover="this.href=this.href.replace('@@','.')">us</a>, if you found any mistakes or typos.</p>
+            onmouseover="this.href=this.href.replace('@@','.')">us</a>, if you found any mistakes or typos.</p>
         <iframe src="timetable.html" style="height:3750px;width:1000px;" style="border:none;"></iframe>
 
       </div>
