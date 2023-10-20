@@ -118,7 +118,7 @@ h2 {
 }
 
 .navbar-right {
-  background-color: #3796ef;
+  background-color: #3486f1;
   padding: 0 95px 0 0;
   opacity: 0.9;
 }
@@ -136,7 +136,7 @@ h2 {
 .navbar-right li a:focus,
 .navbar-right .active a {
   background-color: #fff;
-  color: #16728f;
+  color: #1e69ec;
 }
 
 .fixed-menu {
@@ -254,7 +254,7 @@ h2 {
 **************************/
 
 #cfp {
-  background-color: #60708d;
+  background-color: #027171;
   background-position: center bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #5892be;
+  background-color: #4682B4;
   /*background-image: url("../images/performar-bg.jpg");*/
   background-position: 50% 0;
   background-size: contain;
@@ -484,7 +484,7 @@ h2 {
 *******REG CSS******
 **************************/
 #reg {
-  background-color: #535c70;
+  background-color: #336666;
   color: #ffffff;
   background-position: 50% 0;
   background-size: contain;
@@ -546,7 +546,7 @@ h2 {
 *******PROGRAM CSS******
 **************************/
 #program {
-  background-color: #3a465c;
+  background-color: #336699;
   color: #c9c9c9;
   background-position: 50% 0;
   background-size: contain;
@@ -583,7 +583,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #6064a3;
+  background-color: #006699;
   position: relative;
   width: 100%;
   display: flex;
