@@ -516,13 +516,13 @@
           </li>
           <li><strong>Registration site</strong>: <a href="https://commerce.cashnet.com/1spevents?cname=SMIC"
               class="btn btn-default" role="button" style="vertical-align:middle" target="_blank">
-              <font color="darkred">https://commerce.cashnet.com/1spevents?cname=SMIC</font>  
+              <font color="darkred">https://commerce.cashnet.com/1spevents?cname=SMIC</font>
             </a>
           </li>
           <li>Hotel information: <a href="./hotelinfo.html" target="_blank">link</a></li>
         </ul>
       </div>
-       </div>
+    </div>
   </section>
 
 
@@ -596,21 +596,23 @@
       <div class="row">
         <div class="col-sm-8">
           <h3 style="color: rgba(252, 180, 34, 0.918)">
-            <b id="hao-talk">Neural Fields and Language Models for 3D Generative AI</b>
+            <b id="hao-talk">Learning Differentiable Primitive Representations for CAD Shape Modeling</b>
           </h3>
           <p><b>Date:</b>TBA</p>
           <p>
-            <b>Abstract:</b> Visual computing has been one of the fastest growing subfields of computer science in
-            the past five years, propelled by rapid advances in neural fields, differentiable
-            rendering, diffusion models, and the emergence of large language models (LLMs). In
-            this talk, I will briefly recount how these topics have evolved and become intricately
-            connected in the past few years, especially in the context of generative AI with an
-            emphasis on 3D reasoning and content creation. I will then introduce several recent
-            works from my group on learning structured models, discriminated and stylized diffusion
-            for creative content generation, 3D shape exploration through CLIP spaces, and finally
-            a completely new way of tackling neural single-view 3D reconstruction. While popular
-            trends and successes will be highlighted, I also want to raise critical and unresolved
-            issues that will hopefully drive several new research trends over these emerging topics.
+            <b>Abstract:</b> Recent advances on neural fields have propelled the development of low-level rendering
+            primitives such as NeRFs and 3D Gaussian splats, but they are not effective modeling primitives. In the
+            world of 3D shape modeling, especially CAD modeling, the abilities to offer structured reasoning, semantic
+            manipulation, as well as controllability and reusability, are all in demand. The constructive nature of CAD
+            models makes it natural to build and reason about them in terms of higher-level primitives and their
+            relations rather than at the point/voxel level. In this talk, I will first go over a series of works which
+            evolved from learning coordinate-based neural implicit fields to differentiable assembly of plane, and then
+            quadric, primitives via constructive solid geometry (CSG), and finally a differentiable rendering approach
+            to remove 3D supervision. However, CSG assemblies are non-unique when subjected to reconstruction losses. To
+            the end, I will present a new method which learns to construct a spatial (e.g., Voronoi) partitioning first
+            before primitive fitting. Finally, I want to bring attention to the interior reconstruction problem and
+            offer a few promising avenues for future research.
+
           </p>
         </div>
       </div>
