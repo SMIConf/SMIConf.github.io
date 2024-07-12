@@ -10,7 +10,7 @@
 </head>
 
 <script type="text/javascript">
-typeface.textContent = document.body.classList.contains('libertinus') ? 'Libertinus' : 'Latin Modern';
+    typeface.textContent = document.body.classList.contains('libertinus') ? 'Libertinus' : 'Latin Modern';
 </script>
 
 <body id="top" class="libertinus latex-dark-auto">
@@ -20,7 +20,7 @@ typeface.textContent = document.body.classList.contains('libertinus') ? 'Liberti
     </header>
     <div class="abstract">
         <h2>Abstract</h2>
-        <p>This document is the Bylaws of Shape Modeling International Organization (SMI).
+        <p>This document is the Bylaws of <a href="../index.html">Shape Modeling International</a> Organization (SMI).
             The organization is an international forum for the dissemination of new mathematical theories and
             computational techniques for modeling, simulating, and processing digital representations of shapes and
             their properties to a community of researchers, developers, students, and practitioners across a wide range
@@ -163,7 +163,7 @@ typeface.textContent = document.body.classList.contains('libertinus') ? 'Liberti
 
             <h3 id="kunii">Tosiyasu L. Kunii Distinguished Researcher Award</h3>
             <p>
-                In honor of Tosiyasu Kunii (1938–2020), the Tosiyasu Kunii Distinguished Researcher Award was
+                In honor of Tosiyasu Kunii (1938-2020), the Tosiyasu Kunii Distinguished Researcher Award was
                 established in 2021 to recognize shape modeling researchers with distinguished careers. The recipients
                 of the award will be selected by the SMI Awards Committee, based on proposals from the research
                 community in Shape Modeling. The proposals can simply be in a formal letter format. Self-nominations
@@ -208,9 +208,7 @@ typeface.textContent = document.body.classList.contains('libertinus') ? 'Liberti
 
     <script>
         MathJax = {
-            tex: {
-                inlineMath: [['$', '$'],],
-            },
+            tex: { inlineMath: [['$', '$'],], },
         }
         const typeFaceToggle = document.getElementById('typeface-toggle')
         const typeface = document.getElementById('typeface')
