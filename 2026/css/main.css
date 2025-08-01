@@ -105,7 +105,7 @@ h2 {
 }*/
 
 .navbar-brand {
-  background-color: #5e9bb1;
+  background-color: #389df6;
   height: 90px;
   margin-bottom: 10px;
   position: relative;
@@ -176,7 +176,7 @@ h2 {
   padding: 5px 5px;
   height: auto;
   width: 80px;
-  color: #16728f;
+  color: #3efade;
 }
 
 .dropdown .dropdown-menu .dropdown-item a:hover {
@@ -219,7 +219,7 @@ h2 {
 
 #main-slider .carousel-caption a {
   font-size: 22px;
-  color: #2da1c5;
+  color: #f8a63a;
 }
 
 #main-slider .carousel-caption a:hover {
@@ -254,7 +254,7 @@ h2 {
 **************************/
 
 #cfp {
-  background-color: #186ca1;
+  background-color: #3d85ae;
   background-position: center bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #4d6a80;
+  background-color: #497996;
   /*background-image: url("../images/performar-bg.jpg");*/
   background-position: 50% 0;
   background-size: contain;
@@ -484,8 +484,8 @@ h2 {
 *******REG CSS******
 **************************/
 #reg {
-  background-color: #d2e7f1;
-  color: #111111;
+  background-color: #497996;
+  color: #ffffff;
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -494,7 +494,7 @@ h2 {
 
 #reg a {
   text-decoration: none;
-  color: #3a404b;
+  color: #adc4f1;
 }
 
 #reg a:hover {
@@ -503,7 +503,7 @@ h2 {
 }
 
 #reg h2 {
-  color: #2e3031;
+  color: #eef6f7;
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 40px;
@@ -515,7 +515,7 @@ h2 {
 *******PAST CSS******
 **************************/
 #past {
-  background-color: #456073;
+  background-color: #3d85ae;
   color: #cecea3;
   background-position: 50% 0;
   background-size: contain;
@@ -546,7 +546,7 @@ h2 {
 *******PROGRAM CSS******
 **************************/
 #program {
-  background-color: #1974ad;
+  background-color: #3d85ae;
   color: #c9c9c9;
   background-position: 50% 0;
   background-size: contain;
@@ -583,7 +583,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #3d7794;
+  background-color: #497996;
   position: relative;
   width: 100%;
   display: flex;
@@ -788,7 +788,7 @@ h2 {
 **************************/
 
 #registration {
-  background-color: #ecedef;
+  background-color: #497996;
   /* background-image: url("../images/twitter-bg.jpg");*/
   background-position: center bottom;
   background-size: cover;
@@ -928,7 +928,7 @@ h2 {
 **************************/
 
 .contact-section {
-  background-color: #3bd5fc;
+  background-color: #3d85ae;
   /* background-image: url("../images/contact-bg.jpg"); */
   background-position: 60% 0;
   background-size: contain;
@@ -952,12 +952,12 @@ h2 {
 }
 
 #contact-section h3 {
-  margin-bottom: 25px;
+  margin-bottom: 25px;s
 }
 
 #contact address {
   font-size: 18px;
-  color: #373737;
+  color: #ffffff;
 }
 
 .contact-text {
