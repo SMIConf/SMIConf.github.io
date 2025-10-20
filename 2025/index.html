@@ -622,10 +622,24 @@
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-6">
-        <h2>SMI 2025 Program (TBA)</h2>
+        <h2>SMI/SPM 2025 Program</h2>
+        <p>
+          The detailed program of SMI/SPM 2025 is available at
+          <a href="https://spmsmi2025.github.io/2025/#Program">here</a>.
+        </p>
       </div>
     </div>
   </section>
+
+  
+<div id="target"></div>
+<script>
+  fetch('https://spmsmi2025.github.io/2025')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('target').innerHTML = html;
+    });
+</script>
 
 
   <section id="event">
