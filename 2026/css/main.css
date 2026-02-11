@@ -7,6 +7,9 @@ body {
   font-family: "Dosis", sans-serif;
   font-size: 17px;
   color: #fff;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 .btn {
@@ -38,6 +41,8 @@ h6 {
   font-family: "Yanone Kaffeesatz", "sans-serif";
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.2em;
 }
 
 h2 {
@@ -105,7 +110,7 @@ h2 {
 }*/
 
 .navbar-brand {
-  background-color: #389df6;
+  background-color: #2c5aa0;
   height: 90px;
   margin-bottom: 10px;
   position: relative;
@@ -118,9 +123,9 @@ h2 {
 }
 
 .navbar-right {
-  background-color: #3d9ec5;
+  background-color: #34495e;
   padding: 0 95px 0 0;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .navbar-right li a {
@@ -136,11 +141,11 @@ h2 {
 .navbar-right li a:focus,
 .navbar-right .active a {
   background-color: #fff;
-  color: #1e69ec;
+  color: #2c5aa0;
 }
 
 .fixed-menu {
-  background-color: #1b7b98;
+  background-color: #2c3e50;
   position: fixed;
   top: 0;
 }
@@ -254,13 +259,15 @@ h2 {
 **************************/
 
 #cfp {
-  background-color: #3d85ae;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ffffff;
   background-position: center bottom;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 50px 0 100px;
+  padding: 80px 0 120px;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
 }
 
 .watch {
@@ -271,12 +278,12 @@ h2 {
 
 #cfp a {
   text-decoration: none;
-  color: #f89b76;
+  color: #f39c12;
 }
 
 #cfp a:hover {
   text-decoration: none;
-  color: #e6d1cf;
+  color: #e67e22;
 }
 
 #cfp .btn {
@@ -404,12 +411,15 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #497996;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ffffff;
   /*background-image: url("../images/performar-bg.jpg");*/
   background-position: 50% 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
+  padding: 80px 0;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
 }
 
 .guitar {
@@ -419,16 +429,16 @@ h2 {
 }
 
 #event a {
-  color: #ebae2c;
+  color: #f39c12;
 }
 
 #event a:hover {
   text-decoration: none;
-  color: #e6d1cf;
+  color: #e67e22;
 }
 
 #event li {
-  background-color: #4d6a80;
+  background-color: #2c3e50;
   border: 0;
 }
 
@@ -484,26 +494,28 @@ h2 {
 *******REG CSS******
 **************************/
 #reg {
-  background-color: #497996;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: #ffffff;
   background-position: 50% 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
+  padding: 80px 0;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
 }
 
 #reg a {
   text-decoration: none;
-  color: #adc4f1;
+  color: #f1c40f;
 }
 
 #reg a:hover {
   text-decoration: none;
-  color: #e6d1cf;
+  color: #f39c12;
 }
 
 #reg h2 {
-  color: #eef6f7;
+  color: #ffffff;
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 40px;
@@ -515,26 +527,28 @@ h2 {
 *******PAST CSS******
 **************************/
 #past {
-  background-color: #3d85ae;
-  color: #cecea3;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ffffff;
   background-position: 50% 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
+  padding: 80px 0;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
 }
 
 #past a {
   text-decoration: none;
-  color: #adc4f1;
+  color: #f1c40f;
 }
 
 #past a:hover {
   text-decoration: none;
-  color: #e6d1cf;
+  color: #f39c12;
 }
 
 #past h2 {
-  color: #eef6f7;
+  color: #ffffff;
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 40px;
@@ -546,31 +560,33 @@ h2 {
 *******PROGRAM CSS******
 **************************/
 #program {
-  background-color: #3d85ae;
-  color: #c9c9c9;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ffffff;
   background-position: 50% 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
+  padding: 80px 0;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
 }
 
 #program a {
   text-decoration: none;
-  color: #f8af42;
+  color: #f39c12;
 }
 
 #program a:hover {
   text-decoration: none;
-  color: #e6d1cf;
+  color: #e67e22;
 }
 
 #program li {
-  background-color: #506081;
+  background-color: #2c3e50;
   border: 0;
 }
 
 #program h2 {
-  color: #5fe2ee;
+  color: #ffffff;
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 40px;
@@ -583,10 +599,13 @@ h2 {
 **************************/
 
 #about {
-  background-color: #497996;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ffffff;
   position: relative;
   width: 100%;
   display: flex;
+  padding: 80px 0;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
 }
 
 .guitar2 {
@@ -617,7 +636,7 @@ h2 {
 }
 
 #about .btn-primary {
-  background-color: #137c61;
+  background-color: #e67e22;
   color: #fff;
   text-transform: capitalize;
   border: none;
@@ -625,27 +644,27 @@ h2 {
 }
 
 #about .btn-primary:hover {
-  background-color: #126d55;
+  background-color: #d35400;
 }
 
 /* unvisited link */
 #about a:link {
-  color: #f7ab24;
+  color: #f1c40f;
 }
 
 /* visited link */
 #about a:visited {
-  color: #f7ab24;
+  color: #f1c40f;
 }
 
 /* mouse over link */
 #about a:hover {
-  color: #1b7b98;
+  color: #f39c12;
 }
 
 /* selected link */
 #about a:active {
-  color: #f7ab24;
+  color: #f1c40f;
 }
 
 /*************************
@@ -928,7 +947,7 @@ h2 {
 **************************/
 
 .contact-section {
-  background-color: #3d85ae;
+  background-color: #2c3e50;
   /* background-image: url("../images/contact-bg.jpg"); */
   background-position: 60% 0;
   background-size: contain;
@@ -1023,4 +1042,135 @@ h2 {
 
 #footer a:hover {
   color: #1b7b98;
+}
+
+/* Additional readability improvements */
+.panel {
+  color: #2c3e50;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 25px;
+}
+
+.panel:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.panel-body {
+  color: #2c3e50;
+  padding: 25px;
+  background: #ffffff;
+}
+
+.alert {
+  color: #2c3e50;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.alert-info {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-left: 4px solid #2196f3;
+}
+
+.alert-warning {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffcc02 100%);
+  border-left: 4px solid #ff9800;
+}
+
+.alert-success {
+  background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+  border-left: 4px solid #4caf50;
+}
+
+.well {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.table {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table td, .table th {
+  padding: 15px 20px;
+  border: none;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.text-danger {
+  color: #e74c3c !important;
+}
+
+.text-info {
+  color: #3498db !important;
+}
+
+.text-warning {
+  color: #f39c12 !important;
+}
+
+.text-success {
+  color: #27ae60 !important;
+}
+
+.text-primary {
+  color: #3498db !important;
+}
+
+.list-unstyled li {
+  color: #ffffff;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.list-unstyled li:hover {
+  padding-left: 25px;
+  color: #f39c12;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  border: none;
+  border-radius: 6px;
+  padding: 12px 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #2980b9 0%, #1f618d 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
 }
