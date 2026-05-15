@@ -731,32 +731,77 @@ h2 {
 **************************/
 
 #keynote {
-  background-color: #506872;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ffffff;
+  background-position: 50% 0;
+  background-size: contain;
   position: relative;
-  width: 100%;
-  display: flex;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
+}
+
+.keynote-item {
+  margin-bottom: 60px;
 }
 
 .keynote-content {
-  width: 50%;
-
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 70px 70px 110px;
 }
 
 #keynote h2 {
-  margin-bottom: 23px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+#keynote h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+}
+
+#keynote h4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+#keynote h5 {
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+#keynote h4 a {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+#keynote h4 a:hover {
+  color: #e67e22;
 }
 
 .keynote-content p {
   font-size: 17px;
   font-family: "Dosis", sans-serif;
+  color: #ffffff;
+}
+
+#keynote hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin: 40px 0;
 }
 
 #keynote .btn-primary {
-  background-color: #137c61;
+  background-color: #e67e22;
   color: #fff;
   text-transform: capitalize;
   border: none;
@@ -764,42 +809,27 @@ h2 {
 }
 
 #keynote .btn-primary:hover {
-  background-color: #126d55;
-}
-
-#keynote .h3 {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 26px;
-  margin-top: 25px;
-  text-transform: uppercase;
-}
-
-#keynote .h5 {
-  font-size: 18px;
-  font-weight: 100;
-  display: block;
+  background-color: #d35400;
 }
 
 /* unvisited link */
 #keynote a:link {
-  color: #f7ab24;
+  color: #f39c12;
 }
 
 /* visited link */
 #keynote a:visited {
-  color: #f7ab24;
+  color: #f39c12;
 }
 
 /* mouse over link */
 #keynote a:hover {
-  color: #1b7b98;
+  color: #e67e22;
 }
 
 /* selected link */
 #keynote a:active {
-  color: #f7ab24;
+  color: #f39c12;
 }
 
 /*************************
