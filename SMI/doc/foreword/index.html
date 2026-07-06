@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SMI Foreword Archive">
+  <title>SMI Foreword Archive</title>
+
+  <link href="../../css/bootstrap.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  <style>
+    .foreword-links h4 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .viewer-card {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      background: #fff;
+    }
+
+    .viewer-toolbar {
+      margin-bottom: 10px;
+    }
+
+    .viewer-frame {
+      width: 100%;
+      height: 75vh;
+      min-height: 520px;
+      border: 1px solid #ccc;
+      background: #f7f7f7;
+    }
+
+    @media (max-width: 768px) {
+      .viewer-frame {
+        height: 62vh;
+        min-height: 420px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="about">
+    <div class="container about">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="heading">SMI Foreword Archive</h2>
+          <p>Forewords from previous Shape Modeling International conferences are listed below. Select a year to read it directly on this page.</p>
+          <p><a href="../../index.html">Back to SMI main page</a></p>
+        </div>
+
+        <div class="col-sm-6 foreword-links">
+          <h4><a href="smi2025.pdf" class="foreword-link" data-title="SMI 2025 Foreword">SMI 2025 Foreword</a></h4>
+          <h4><a href="smi2024.pdf" class="foreword-link" data-title="SMI 2024 Foreword">SMI 2024 Foreword</a></h4>
+          <h4><a href="smi2023.pdf" class="foreword-link" data-title="SMI 2023 Foreword">SMI 2023 Foreword</a></h4>
+          <h4><a href="smi2022.pdf" class="foreword-link" data-title="SMI 2022 Foreword">SMI 2022 Foreword</a></h4>
+          <h4><a href="smi2021.pdf" class="foreword-link" data-title="SMI 2021 Foreword">SMI 2021 Foreword</a></h4>
+          <h4><a href="smi2020.pdf" class="foreword-link" data-title="SMI 2020 Foreword">SMI 2020 Foreword</a></h4>
+          <h4><a href="smi2019.pdf" class="foreword-link" data-title="SMI 2019 Foreword">SMI 2019 Foreword</a></h4>
+          <h4><a href="smi2018.pdf" class="foreword-link" data-title="SMI 2018 Foreword">SMI 2018 Foreword</a></h4>
+          <h4><a href="smi2017.pdf" class="foreword-link" data-title="SMI 2017 Foreword">SMI 2017 Foreword</a></h4>
+          <h4><a href="smi2016.pdf" class="foreword-link" data-title="SMI 2016 Foreword">SMI 2016 Foreword</a></h4>
+          <h4><a href="smi2015.pdf" class="foreword-link" data-title="SMI 2015 Foreword">SMI 2015 Foreword</a></h4>
+          <h4><a href="smi2014.pdf" class="foreword-link" data-title="SMI 2014 Foreword">SMI 2014 Foreword</a></h4>
+        </div>
+
+        <div class="col-sm-6 foreword-links">
+          <h4><a href="smi2013.pdf" class="foreword-link" data-title="SMI 2013 Foreword">SMI 2013 Foreword</a></h4>
+          <h4><a href="smi2012.pdf" class="foreword-link" data-title="SMI 2012 Foreword">SMI 2012 Foreword</a></h4>
+          <h4><a href="smi2011.pdf" class="foreword-link" data-title="SMI 2011 Foreword">SMI 2011 Foreword</a></h4>
+          <h4><a href="smi2010.pdf" class="foreword-link" data-title="SMI 2010 Foreword">SMI 2010 Foreword</a></h4>
+          <h4><a href="smi2009.pdf" class="foreword-link" data-title="SMI 2009 Foreword">SMI 2009 Foreword</a></h4>
+          <h4><a href="smi2008.pdf" class="foreword-link" data-title="SMI 2008 Foreword">SMI 2008 Foreword</a></h4>
+          <h4><a href="smi2007.pdf" class="foreword-link" data-title="SMI 2007 Foreword">SMI 2007 Foreword</a></h4>
+          <h4><a href="smi2006.pdf" class="foreword-link" data-title="SMI 2006 Foreword">SMI 2006 Foreword</a></h4>
+          <h4><a href="smi2005.pdf" class="foreword-link" data-title="SMI 2005 Foreword">SMI 2005 Foreword</a></h4>
+          <h4><a href="smi2004.pdf" class="foreword-link" data-title="SMI 2004 Foreword">SMI 2004 Foreword</a></h4>
+          <h4><a href="smi2003.pdf" class="foreword-link" data-title="SMI 2003 Foreword">SMI 2003 Foreword</a></h4>
+          <h4><a href="smi2002.pdf" class="foreword-link" data-title="SMI 2002 Foreword">SMI 2002 Foreword</a></h4>
+        </div>
+
+        <div class="col-md-12">
+          <div class="viewer-card">
+            <div class="viewer-toolbar">
+              <h4 id="current-foreword">Now viewing: SMI 2025 Foreword</h4>
+              <p><a id="open-external" href="smi2025.pdf" target="_blank" rel="noopener">Open current PDF in a new tab</a></p>
+            </div>
+            <iframe id="foreword-viewer" class="viewer-frame" src="smi2025.pdf" title="SMI Foreword PDF viewer"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="text-center">© Shape Modeling International</p>
+    </div>
+  </footer>
+
+  <script src="../../js/jquery.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script>
+    (function () {
+      var links = document.querySelectorAll('.foreword-link');
+      var viewer = document.getElementById('foreword-viewer');
+      var current = document.getElementById('current-foreword');
+      var external = document.getElementById('open-external');
+
+      function setViewer(pdfPath, title) {
+        viewer.src = pdfPath;
+        current.textContent = 'Now viewing: ' + title;
+        external.href = pdfPath;
+      }
+
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', function (event) {
+          event.preventDefault();
+          setViewer(this.getAttribute('href'), this.getAttribute('data-title'));
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>
