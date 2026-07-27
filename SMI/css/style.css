@@ -1,18 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+:root {
+  --text-color: #222;
+  --body-bg: #f0eeee;
+  --link-color: #0798f8;
+  --link-hover-color: #0972fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
     padding-top: 70px;
-	  color: #222;
+    color: var(--text-color);
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
-    line-height: 1.8 !important;
-    background-color: #f0eeee;
+    line-height: 1.8;
+    background-color: var(--body-bg);
 
 }
 
 html {
-	overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -37,18 +48,17 @@ section {
 }
 
 a,a:link {
-	color: rgb(7, 152, 248);
+  color: var(--link-color);
 }
 
 a:hover,a:focus {
-	/* color: #222; */
-  color:					#0972fc;
+  color: var(--link-hover-color);
 }
 
 a:focus,
 a:hover {
   text-decoration: none;
-  outline: none
+  outline: none;
 }
 
 /* Navbar */
@@ -101,11 +111,7 @@ a:hover {
 /* Toggle Animation */
 
 .navbar-toggle * {
-	-ms-transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .navbar-toggle {
     border: medium none;
@@ -116,8 +122,8 @@ a:hover {
     padding: 16px;
     width: 50px;
     float: right;
-	margin-top:0px;
-	margin-bottom:0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -137,52 +143,34 @@ a:hover {
 	display: block;
 }
 .navbar-toggle span.bar1 {
-	-ms-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
-	-ms-transform-origin: 1px 3px;
-	-webkit-transform-origin: 1px 3px;
-  -moz-transform-origin: 1px 3px;
-  -o-transform-origin: 1px 3px;
-	transform-origin: 1px 3px;
-	width: 31px;
+  transform-origin: 1px 3px;
+  width: 31px;
 }
 .navbar-toggle span.bar2 {
-	-ms-transform: rotate(-360deg) scale(0);
-	-webkit-transform: rotate(-360deg) scale(0);
-  -moz-transform: rotate(-360deg) scale(0);
-  -o-transform: rotate(-360deg) scale(0);
-	transform: rotate(-360deg) scale(0);
+  transform: rotate(-360deg) scale(0);
 }
 
 .navbar-toggle span.bar3 {
-	-ms-transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	-ms-transform-origin:8px 2px;
-	-webkit-transform-origin: 8px 2px;
-	transform-origin: 8px 2px;
-	width: 31px;
+  transform: rotate(-45deg);
+  transform-origin: 8px 2px;
+  width: 31px;
 }
 .navbar-toggle.collapsed span.bar1,
 .navbar-toggle.collapsed span.bar2,
 .navbar-toggle.collapsed span.bar3,
 .navbar-toggle.collapsed span.bar4 {
-	-ms-transform: none;
-	-webkit-transform: none;
-	transform: none;
-	width: 30px;
+  transform: none;
+  width: 30px;
 }
 
 
 /* Intro */
 
 .intro {
-	font-size:22px;
-	padding-top:60px;
-	padding-bottom:25px;
+  font-size: 22px;
+  padding-top: 60px;
+  padding-bottom: 25px;
 }
 
 
@@ -192,13 +180,13 @@ a:hover {
 
 .big-letter p:first-child:first-letter { 
 	float: left; 
-	color: #222; 
+  color: var(--text-color); 
 	font-size: 8em;  
 	line-height: 0.8em; 
 	text-transform: uppercase; 
 	padding-top: 0px;  
 	padding-right: 0.1em; 
-	padding-left: –0.03em;	
+  padding-left: -0.03em;	
 }
 
 /* Firefox Fix */
@@ -260,9 +248,7 @@ a:hover {
   text-decoration:none;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(100%,0,0);
   transform: translate3d(100%,0,0);
 }
 
@@ -272,7 +258,6 @@ a:hover {
   opacity: 1;
   letter-spacing:1px;
   filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
@@ -287,11 +272,8 @@ a:hover {
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px,0,0);
   transform: translate3d(-10px,0,0);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   cursor:pointer;
 }
@@ -299,7 +281,6 @@ a:hover {
 .hovereffect:hover img {
   opacity: 0.4;
   filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
@@ -313,11 +294,8 @@ a:hover {
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px,0,0);
   transform: translate3d(-10px,0,0);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -329,8 +307,18 @@ a:hover {
 .hovereffect:hover .photo-6{
   opacity: 0.4;
   filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .photo-1,.photo-2,.photo-3,.photo-4,.photo-5,.photo-6{
